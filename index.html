@@ -19,7 +19,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">Map for Practicing</div>
+  <div id="map-title">Aeorporte en Nigeria</div>
   <div id="map"></div>
 
   <!-- Create the interactive map content with JavaScript (.js) -->
@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.3818, 2.1685], // EDIT latitude, longitude to re-center map
+    center: [4.778333, 7.011667], // EDIT latitude, longitude to re-center map
     zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
@@ -38,14 +38,14 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.3818, 2.1685]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Nuestra Casa"); // EDIT pop-up text message
-  L.marker([41.4500400, 2.2474100]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("IKEA"); // EDIT pop-up text message
-  L.marker([41.979401, 2.821426]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Costa Brava"); // EDIT pop-up text message
-  L.marker([41.385216, 2.180893]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Museu Picasso"); // EDIT pop-up text message
+  L.marker([4.778333, 7.01166]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Port Harcourt"); // EDIT pop-up text message
+  L.marker([4.95, 8.316667]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Calabar"); // EDIT pop-up text message
+  L.marker([5.48333, 7.03333]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Qwerri"); // EDIT pop-up text message
+  L.marker([5.51, 5.75]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Warri"); // EDIT pop-up text message
 
   </script>
 </body>
